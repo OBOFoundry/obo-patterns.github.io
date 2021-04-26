@@ -1,4 +1,0 @@
-# Pattern Browser
-
-Placeholder
-

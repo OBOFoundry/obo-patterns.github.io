@@ -1,3 +1,0 @@
-Ontology ID	Label	Obsolete	Reason	Replacement
-ID	A rdfs:label	AT owl:deprecated^^xsd:boolean	A rdfs:comment	AI IAO:0100001
-ID:0000001	obsolete example	true		ID:0000002
