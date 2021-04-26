@@ -1,0 +1,30 @@
+pattern_name: present_in_taxon
+pattern_iri: http://purl.obolibrary.org/obo/cob/patterns/present_in_taxon.yaml
+description: |
+  _At least one specific_ instance of a class `C` is in taxon `T`.
+  For more detailed documentation see 
+
+contributors:
+  - https://orcid.org/0000-0002-7356-1779
+
+classes:
+  anatomical entity: UBERON:0001062
+  taxon: NCBITaxon:1
+
+
+annotationProperties:
+  present_in_taxon: RO:0002175
+
+vars:
+  anatomical_entity: "'anatomical entity'"
+
+annotations:
+  - annotationProperty: present_in_taxon
+    text: "%s"
+    vars:
+     - taxon
+
+SubClassOf:
+  text: "%"
+  vars:
+    - anatomical_entity
