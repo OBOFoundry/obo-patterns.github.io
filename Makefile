@@ -9,4 +9,4 @@ SHELL := bash
 .SUFFIXES:
 
 update_docs:
-	mkdocs gh-deploy --config-file mkdocs.yaml
+	mkdocs gh-deploy
